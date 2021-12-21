@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "*"
+djangorestframework = "*"
+django-allauth = "*"
+dj-rest-auth = "*"
+djangorestframework-simplejwt = "*"
+django-environ = "*"
+psycopg2 = "*"
+bcrypt = "*"
+
+[dev-packages]
+django-extensions = "*"
+flake8 = "*"
+
+[requires]
+python_version = "3.8"
