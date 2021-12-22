@@ -10,11 +10,11 @@ django-allauth = "*"
 dj-rest-auth = "*"
 djangorestframework-simplejwt = "*"
 django-environ = "*"
+django-extensions = "*"
 psycopg2 = "*"
 bcrypt = "*"
 
 [dev-packages]
-django-extensions = "*"
 flake8 = "*"
 
 [requires]
