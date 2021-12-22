@@ -8,7 +8,7 @@ from user.managers import UserManager
 class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(max_length=255, unique=True)
     is_active = models.BooleanField(default=False)
-    is_verified = models.BooleanField(default=False)
+    is_anonymous = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
