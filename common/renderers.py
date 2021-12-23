@@ -12,6 +12,6 @@ class CustomRenderer(JSONRenderer):
         }
 
         renderer_context['response'].status_code = 200
+        renderer_context['response'].data = response
 
-        return super(CustomRenderer, self) \
-            .render(response, accepted_media_type, renderer_context)
+        return super().render(response, accepted_media_type, renderer_context)
