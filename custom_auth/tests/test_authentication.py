@@ -12,7 +12,9 @@ def create_user(**params):
 
 
 class AuthenticationTests(APITestCase):
-    """Test login and registration"""
+    """
+    Test login and registration
+    """
 
     def test_login_success(self):
         """Test successful login"""
